@@ -33,7 +33,7 @@ public class Sesion2Parte1 extends HttpServlet {
 		Date date = (Date)sesion.getAttribute("date");
 		
 		if(date != null) {
-			html.print("Último acceso de la sesión: " + date + "<br>");
+			html.print("Último acceso: " + date + "<br>");
 		}
 		
 		else {
