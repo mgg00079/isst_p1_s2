@@ -47,6 +47,8 @@ public class Sesion2Parte1 extends HttpServlet {
 		html.print("Fecha actual: " + date);
 		html.print("</strong>");
 		
+		sesion.setMaxInactiveInterval(5);
+		
 	}
 
 }
